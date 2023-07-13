@@ -1,6 +1,7 @@
 import Operators
 import pickle
 
+
 def _extend(func_name, _func, path_to_save_extended_version):
     op = Operators.Operator()
     op._add_new_operation(f"{func_name}", _func)

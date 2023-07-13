@@ -17,6 +17,8 @@ def empty_(a):
         return a is None
 
 
+
+
 def not_empty_(a):
     if type(a) is str:
         return len(a) > 0 and a is not None
